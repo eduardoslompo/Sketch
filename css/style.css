@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerRight{
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.square{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid 0.1rem black;
+    background-color: white;
+}
+
+.userValue, .reset {
+    margin: 10px;
+}
