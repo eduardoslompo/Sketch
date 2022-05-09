@@ -1,13 +1,15 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.containerRight{
+.containerRight {
     width: 40rem;
     height: 40rem;
     display: flex;
@@ -29,7 +31,7 @@ body{
     margin: 20px;
 }
 
-.square{
+.square {
     width: 2.5rem;
     height: 2.5rem;
     border: solid 0.1rem black;
@@ -38,4 +40,25 @@ body{
 
 .userValue, .reset {
     margin: 10px;
+    border: none;
+    border-radius: 5%;
+    font-weight: 900;
+    width: 160px;
+    height: 40px;
+}
+
+.userValue {
+    background: royalblue;
+    color: lavender;
+}
+
+.reset {
+    background: lavender;
+    color: royalblue
+}
+
+h1 {
+    text-shadow: 1px 1px rgb(255, 60, 0);
+    color: rgb(238, 255, 0);
+    font-size: 30px;
 }
