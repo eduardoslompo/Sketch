@@ -78,6 +78,6 @@ buttonReset.addEventListener('click', () => {
     let reset = document.querySelectorAll('.square');
     reset.forEach(square => {
         square.style.backgroundColor = 'white';
-    })
-})
+    });
+});
 
